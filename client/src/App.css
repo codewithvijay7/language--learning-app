@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e60f0;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.text-box {
+  max-width: 400px;
+  text-align: left;
+}
+
+.text-box h2 span {
+  color: gold;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background: gold;
+  color: black;
+}
+
+.buttons button:last-child {
+  background: white;
+  color: #1e60f0;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.features div {
+  background: #2a6df7;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+}
+
